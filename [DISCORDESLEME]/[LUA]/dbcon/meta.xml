@@ -1,0 +1,7 @@
+<meta>
+	<!-- Auto generated using VSCode MTA:SA Lua by Subtixx -->
+	<info author="VSCode MTA:SA Lua" type="script" name="[DISCORD]" version="0.1.0" />
+	<script src="connection.lua" type="server" />
+
+	<export function="getCon" type="server"/>
+</meta>
