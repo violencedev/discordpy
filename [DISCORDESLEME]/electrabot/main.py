@@ -72,5 +72,7 @@ async def adm_findAlts(ctx, user):
                     if v[0] != None:
                         name = user.split('-')[0]
                         await ctx.send(f'İlgili kişinin oyun hesabı : {name}')
-
+                        await ctx.send(f'Hesap ID : {row["id"]}')
+                        
+                 
 client.run('OTE3MDg3MTg5NjY4NjE4Mjgx.YazmAA.bFQxAuC1I0USs9BkV8_fDcPJgqk')
